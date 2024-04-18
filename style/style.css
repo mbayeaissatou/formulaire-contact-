@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color:   rgb(21, 9, 48);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(21, 9, 48);
+    align-items: center;
+    padding: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 26px;
+}
+
+nav h2 {
+    color: red;
+}
+
+.drav h1 ,h2{
+    color: white;
+    text-align: center;
+}
+
+
+.mbaye{
+    width: 600px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+label {
+    color: white;
+}
+
+input , textarea{
+    background-color: transparent;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid white;
+    padding: 8px;
+    margin-top: 5px;
+    color: white;
+}
+
+ .mbaye button{
+    border: none;
+    color: rgb(16, 9, 31);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mbaye button:hover{
+
+    background-color: blue;
+    color: red;
+}
+
+
+.input-groupe{
+    margin-bottom: 20px;
+    
+}
+
+input::placeholder{
+    color: #ccc;
+}
+
+footer {
+    position: relative;
+    background-color: black;
+    padding: 60px;
+}
+
+
+
+
